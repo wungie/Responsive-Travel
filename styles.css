@@ -4,6 +4,7 @@ body {
   padding: 10px;
 }
 p {padding: 10px}
+.p1 {margin-top: 40px}
 .fpage {
   background-color: white;; padding-top: 10px; margin-top: 30px;
 }
@@ -12,13 +13,13 @@ p {padding: 10px}
 }
 .fpage .img2 div img {display: none; width: 500px; padding: 20px}
 .fpage .img3 div img {display: none; width: 950px; padding: 20px}
-.fpage h1 {
+.fpage h2 {
   font-family: arial; text-align: center; font-size: 80px; padding: 30px;
   margin-top: 0px; margin-bottom: 0px; font-variant: small-caps;
 }
-.fpage section {
+.fpage .cap {
   font-family: arial; font-style: italic; text-align: center;
-  margin-top: -90px; font-size: 15px; color: grey
+  margin-top: -90px; font-size: 15px; color: grey;
 }
 span {float:left; font-size: 47px; padding-right: 3px}
 .center {
