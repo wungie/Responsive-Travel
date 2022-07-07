@@ -1,0 +1,67 @@
+body {
+  background-color: #ff9999;  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+p {padding: 10px}
+.fpage {
+  background-color: white;; padding-top: 10px; margin-top: 30px;
+}
+.fpage .img div img {
+  display: none; background-color: white; width: 500px; padding: 20px
+}
+.fpage .img2 div img {display: none; width: 500px; padding: 20px}
+.fpage .img3 div img {display: none; width: 950px; padding: 20px}
+.fpage h1 {
+  font-family: arial; text-align: center; font-size: 80px; padding: 30px;
+  margin-top: 0px; margin-bottom: 0px; font-variant: small-caps;
+}
+.fpage section {
+  font-family: arial; font-style: italic; text-align: center;
+  margin-top: -90px; font-size: 15px; color: grey
+}
+span {float:left; font-size: 47px; padding-right: 3px}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+footer {
+  margin: auto;
+  width: 90%;
+  padding: 19px;
+  text-align: center;background-color: white;
+}
+footer h1 {
+  text-align: center; font-family: arial; font-style: italic;
+  font-size: 24px; color: black;
+}
+footer ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 0;
+}
+footer li {padding: 20px}
+footer li a {color: black; font-size: 25px}
+footer a:hover{color: #ff9999}
+footer * {display: inline;}
+@media screen and (min-width: 700px) {
+  .fpage .img div img {display: block; float: none;}
+}
+@media screen and (min-width: 900px) {
+  .fpage .img div img {float: left;}
+  .fpage .img2 div img {display: block; float: right; margin-top: -10px}
+  .fpage {height: 1200px}
+  article .p1 {float: none;}
+  article .p3 {float: none;}
+  footer {position: relative; top: 20px}
+}
+@media screen and (min-width: 1300px){
+  .fpage .img2 div img {margin-top: 50px;}
+  .fpage .img3 div img {display: block; float: none; margin-top: 50px}
+  .fpage {height: 1600px}
+  article .p3 {margin-top: 80px}
+}
